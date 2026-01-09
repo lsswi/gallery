@@ -1,0 +1,225 @@
+{
+  /* 
+    editor
+  */
+  "editor.accessibilityPageSize": 15,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Monaco, Menlo Light, Cascade Mono, Courier New, monospace",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.lineNumbers": "relative",
+  "workbench.preferredLightColorTheme": "Catppuccin Mocha",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb",
+    "*.xlsx": "default"
+  },
+
+  /* 
+  format
+  */
+  "[go]": {
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "golang.go"
+  },
+
+  /*
+    system
+  */
+  "window.autoDetectColorScheme": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "extensions.ignoreRecommendations": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.autoReveal": false,
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "git.ignoreLegacyWarning": true,
+  "debug.console.fontSize": 15,
+  "go.autocompleteUnimportedPackages": true,
+  "go.useCodeSnippetsOnFunctionSuggest": true,
+  "files.autoSave": "afterDelay",
+  "editor.mouseWheelScrollSensitivity": 0,
+  "go.toolsManagement.autoUpdate": true,
+  "editor.stickyScroll.enabled": true,
+  "scm.inputFontSize": 12,
+  "markdown.preview.fontSize": 12,
+  "settingsSync.ignoredSettings": [
+    "customizeUI.fontSizeMap",
+    "terminal.integrated.fontSize",
+    "terminal.integrated.lineHeight",
+    "editor.fontSize"
+  ],
+
+  // "vim.useSystemClipboard": true,
+  "vim.leader": " ",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "p"],
+      "after": ["\"", "0", "p"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "y"],
+      "after": ["y", "y"]
+    },
+    {
+      "before": ["<leader>", "w", "\""],
+      "after": ["c", "i", "w", "\"", "\"", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "'"],
+      "after": ["c", "i", "w", "'", "'", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "("],
+      "after": ["c", "i", "w", "(", ")", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", ")"],
+      "after": ["c", "i", "w", "(", ")", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "["],
+      "after": ["c", "i", "w", "[", "]", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "]"],
+      "after": ["c", "i", "w", "[", "]", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "{"],
+      "after": ["c", "i", "w", "{", "}", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "}"],
+      "after": ["c", "i", "w", "{", "}", "<Esc>", "P"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["m", "z", ":", "m", "+", "<cr>", "`", "z"]
+    },
+    {
+      "before": ["<leader>", "2"],
+      "after": ["$"]
+    },
+    {
+      "before": ["<leader>", "1"],
+      "after": ["^"]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "p"],
+      "after": ["\"", "0", "p"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "y"],
+      "after": ["y", "y"]
+    },
+    {
+      "before": ["<leader>", "w", "\""],
+      "after": ["c", "i", "w", "\"", "\"", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "'"],
+      "after": ["c", "i", "w", "'", "'", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "("],
+      "after": ["c", "i", "w", "(", ")", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", ")"],
+      "after": ["c", "i", "w", "(", ")", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "["],
+      "after": ["c", "i", "w", "[", "]", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "]"],
+      "after": ["c", "i", "w", "[", "]", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "{"],
+      "after": ["c", "i", "w", "{", "}", "<Esc>", "P"]
+    },
+    {
+      "before": ["<leader>", "w", "}"],
+      "after": ["c", "i", "w", "{", "}", "<Esc>", "P"]
+    }
+  ],
+  "editor.minimap.enabled": false,
+  "editor.autoClosingQuotes": "never",
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "editor.fontWeight": "light",
+  "editor.rulers": [120],
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "phase",
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.parameterHints.cycle": false,
+  "editor.suggest.showTypeParameters": false,
+  "vim.overrideCopy": false,
+  "vim.cursorStylePerMode.insert": "line",
+  "workbench.colorTheme": "Default Dark+ Experimental",
+  "[sql]": {
+    "editor.defaultFormatter": "cymonk.sql-formatter"
+  },
+  "extension.as_loc_cnt": 50,
+  "markdown.preview.lineHeight": 1,
+  "terminal.integrated.fontSize": 13,
+  "editor.lineHeight": 1.7,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "remote.downloadExtensionsLocally": true,
+  "go.formatTool": "goimports",
+  "editor.fontSize": 15.5,
+  "editor.fontLigatures": true,
+  "git.autofetch": true,
+  "terminal.integrated.cwd": "${workspaceFolder}",
+  "terminal.integrated.lineHeight": 1.2,
+  "git.confirmSync": false,
+  "gitlens.views.searchAndCompare.files.layout": "list",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.editContext": false,
+
+  "cSpell.ignoreWords": ["wechat"],
+  "git.replaceTagsWhenPull": true,
+  "security.promptForRemoteFileProtocolHandling": false
+}
