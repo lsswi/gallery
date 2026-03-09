@@ -1,0 +1,24 @@
+{
+  "Default": "",
+  "\r官方页": "",
+  "预发布代码包": "xs.gdt.qq.com/style_factory/module_list ttc.gdt.qq.com/pre_product/style_factory/module_list",
+  "代码包测试切正式": "xs.gdt.qq.com/style_factory/module_list ttc.gdt.qq.com/style_factory/module_list",
+  "模板代理": "https://ttc.gdt.qq.com/picasso/preload/template_list /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/template/template_list.json\nhttps://xs.gdt.qq.com/picasso/preload/template_list /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/template/template_list.json\nhttps://wallpaper-localproxy.com/picasso/template/ /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/template",
+  "代码包代理本地": "# 前端代码包地址拉取，回包映射到本地\nttc.gdt.qq.com/style_factory/module_list /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/proxy-android.json includeFilter://b:/\"os\"\\s*:\\s*\"2\"/\nxs.gdt.qq.com/style_factory/module_list /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/proxy-android.json includeFilter://b:/\"os\"\\s*:\\s*\"2\"/\nttc.gdt.qq.com/style_factory/module_list /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/proxy-ios.json includeFilter://b:/\"os\"\\s*:\\s*\"1\"/\nxs.gdt.qq.com/style_factory/module_list /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/proxy-ios.json includeFilter://b:/\"os\"\\s*:\\s*\"1\"/\n\n# 前端代码包拉取，代码包文件映射到本地\nhttps://wallpaper-1258344696.file.myqcloud.com/hikari/module/ /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/pkg\nhttps://wallpaper-localproxy.com/hikari/module/ /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/pkg\n",
+  "模板预加载/拉取": "# 模板预载代理：模板ID拉取模板，回包映射到本地文件\nhttps://ttc.gdt.qq.com/picasso/preload/template_list /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/template/template_list.json\nhttps://xs.gdt.qq.com/picasso/preload/template_list /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/template/template_list.json\n\n# 模板CDN代理，CDN模板文件映射到本地文件\nhttps://wallpaper-localproxy.com/hikari/template/ /Users/joyyieli/Codes/dynamic-canvas/ad-dynamic-canvas-page/dist/light-engine/template",
+  "\r达芬奇": "",
+  "正式环境": "davinci.woa.com/node-cgi davinci.woa.com/node-cgi\n\n# devcloud 开发机运行 npm start \ndavinci.woa.com http://9.135.90.141:8185",
+  "测试环境": "test.davinci.woa.com/node-cgi test.davinci.woa.com/node-cgi\n# devcloud 开发机运行 npm start\ntest.davinci.woa.com http://9.135.90.141:8185\n\ndev.davinci.woa.com/node-cgi http://9.134.241.165:44010/node-cgi\ndev.davinci.woa.com http://9.135.90.141:8185",
+  "": [
+    "Default",
+    "\r官方页",
+    "预发布代码包",
+    "代码包测试切正式",
+    "模板代理",
+    "代码包代理本地",
+    "模板预加载/拉取",
+    "\r达芬奇",
+    "正式环境",
+    "测试环境"
+  ]
+}
