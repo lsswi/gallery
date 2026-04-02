@@ -1,0 +1,45 @@
+# /Users/joyyieli/Library/Application Support/com.mitchellh.ghostty
+# font
+font-family = Monaco
+font-size = 14
+adjust-cell-height = 4
+adjust-cell-width = 1
+
+# cursor
+shell-integration-features = no-cursor
+cursor-style = block
+cursor-style-blink = true
+
+background = #1D1D1D
+foreground = #EBDBB2
+
+palette = 0=#282828
+palette = 1=#E56B5B
+palette = 2=#A8BB66
+palette = 3=#FABD2F
+palette = 4=#83A598
+palette = 5=#D3869B
+palette = 6=#8EC07C
+palette = 7=#EBDBB2
+palette = 8=#504945
+palette = 9=#FE6258
+palette = 10=#C9CB32
+palette = 11=#FEC740
+palette = 12=#94B9AC
+palette = 13=#E39AAC
+palette = 14=#9FC88B
+palette = 15=#FBF1C7
+
+scrollback-limit = 100000
+window-padding-x = 20
+window-padding-y = 20
+
+window-height = 40
+window-width = 120
+
+keybind = global:cmd+backquote=toggle_quick_terminal
+quick-terminal-position = center
+quick-terminal-size = 30%, 30%
+
+
+macos-titlebar-style = transparent
